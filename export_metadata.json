@@ -1,0 +1,17 @@
+{
+  "project": "Arabic Silent Lip Reader",
+  "package": "ArabicLipGeometryNet_v2_Windows",
+  "exported_at_utc": "2026-11-26T21:56:14.848989+00:00",
+  "source_checkpoint": "best_geometry.pt",
+  "best_epoch": 59,
+  "validation_macro_f1": 0.631492810069577,
+  "validation_accuracy": 0.6414621932899349,
+  "classes": 100,
+  "model_parameters": 391461,
+  "pytorch_version_at_export": "2.14.1+cu130",
+  "training_data": "LRW-AR",
+  "scope": "100-class isolated Arabic word recognition",
+  "input": "[29,40,2] normalized lip landmarks",
+  "runtime_camera_capture_included": false,
+  "video_recording": false
+}

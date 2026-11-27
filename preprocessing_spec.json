@@ -1,0 +1,76 @@
+{
+  "input_frames": 29,
+  "mouth_points_per_frame": 40,
+  "coordinate_dimensions": 2,
+  "coordinate_order": [
+    "x",
+    "y"
+  ],
+  "coordinate_space": "normalized coordinates within the 96x96 aligned mouth ROI",
+  "lip_landmark_ids": [
+    61,
+    146,
+    91,
+    181,
+    84,
+    17,
+    314,
+    405,
+    321,
+    375,
+    291,
+    409,
+    270,
+    269,
+    267,
+    0,
+    37,
+    39,
+    40,
+    185,
+    78,
+    95,
+    88,
+    178,
+    87,
+    14,
+    317,
+    402,
+    318,
+    324,
+    308,
+    415,
+    310,
+    311,
+    312,
+    13,
+    82,
+    81,
+    80,
+    191
+  ],
+  "eye_landmark_ids": [
+    33,
+    263
+  ],
+  "alignment": "similarity alignment using the two eye corners",
+  "alignment_canvas_size": 256,
+  "target_eye_distance": 116.0,
+  "eye_target_position": [
+    128.0,
+    80.0
+  ],
+  "mouth_roi_size": [
+    96,
+    96
+  ],
+  "temporal_sampling": "29 uniformly sampled frames across the source clip",
+  "normalization": "training-only per-landmark mean and standard deviation",
+  "std_floor": 0.05,
+  "clipping_after_normalization": [
+    -8.0,
+    8.0
+  ],
+  "input_dtype": "float32",
+  "expected_input": "[29, 40, 2]"
+}

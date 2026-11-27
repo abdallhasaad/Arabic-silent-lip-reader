@@ -1,0 +1,40 @@
+# Python and local editor state
+/.venv/
+/.venv-copied-*/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.env
+.env.*
+
+# Personal feedback, training outputs and recordings
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+/dataset/
+/datasets/
+/runs/
+/recordings/
+*.mp4
+*.mov
+*.avi
+*.webm
+*.wav
+*.npy
+!/assets/visper/data_prepare/20words_mean_face.npy
+
+# Models downloaded or generated locally
+*.pt
+*.pth
+*.safetensors
+/assets/face_landmarker.task
+/ArabicVSR_Camera_Preprocessing_Stage.zip
+/training_history.csv

@@ -1,0 +1,31 @@
+{
+  "project": "Arabic Silent Lip Reader",
+  "experiment": "ArabicLipGeometryNet_v2",
+  "architecture": "ArabicLipGeometryNet",
+  "version": 2,
+  "num_classes": 100,
+  "num_frames": 29,
+  "num_points": 40,
+  "hidden_size": 96,
+  "dropout": 0.25,
+  "input": "normalized_absolute_coordinates+normalized_temporal_delta",
+  "normalization": "train_only_per_landmark",
+  "normalization_std_floor": 0.05,
+  "normalized_coordinate_clip": [
+    -8.0,
+    8.0
+  ],
+  "batch_size_training": 128,
+  "best_checkpoint_epoch": 59,
+  "validation_macro_f1": 0.631492810069577,
+  "validation_accuracy": 0.6414621932899349,
+  "inference_input_shape": [
+    29,
+    40,
+    2
+  ],
+  "inference_output_shape": [
+    100
+  ],
+  "task": "closed_set_isolated_arabic_word_classification"
+}

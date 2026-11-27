@@ -1,0 +1,158 @@
+{
+  ".gitattributes": {
+    "sha256": "98d2d4abadf0c252a8156357ca4f5b74c68659913b38f50a9e0204514ea75edd",
+    "size_bytes": 82
+  },
+  ".gitignore": {
+    "sha256": "fa94a42463a30eb23e64954cce5adf3a6dd80194a8f0fc0aec5f95451934027e",
+    "size_bytes": 553
+  },
+  "ArabicLipGeometryNet_Windows_Setup_Commands.md": {
+    "sha256": "bff13396945e266fe81a973ef60480158613847ef01c78eddff5f47b16a9ab59",
+    "size_bytes": 10921
+  },
+  "assets/face_landmarker.task": {
+    "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "size_bytes": 3758596
+  },
+  "assets/visper/data_prepare/20words_mean_face.npy": {
+    "sha256": "dbf68b2044171e1160716df7c53e8bbfaa0ee8c61fb41171d04cb6092bb81422",
+    "size_bytes": 1168
+  },
+  "assets/visper/espnet/nets/ctc_prefix_score.py": {
+    "sha256": "c26e5ce6f4884cfbf329e3bd8ac75089a47e4a4e79355db024dc0056b48da6c9",
+    "size_bytes": 13899
+  },
+  "assets/visper/espnet/nets/e2e_asr_common.py": {
+    "sha256": "27b386925086ed94708113452c879d7a0a4eb4e2e04b4aedbd66cc3c14997e6c",
+    "size_bytes": 8552
+  },
+  "assets/visper/espnet/nets/pytorch_backend/ctc.py": {
+    "sha256": "7c4c35a2e91954d23829c2260e303e06feb7237e48304a707ca789c6f2925291",
+    "size_bytes": 14354
+  },
+  "assets/visper/espnet/nets/pytorch_backend/transformer/mask.py": {
+    "sha256": "960e7aa707e28c38e39d3574ce8aef217845113658d6df446d09d0de61c9a251",
+    "size_bytes": 1558
+  },
+  "assets/visper/LICENSE": {
+    "sha256": "0aac674180ec1f6d193c1835e4e81b7d69e7e933cc7526e0a3c864f96d26d3c1",
+    "size_bytes": 365
+  },
+  "assets/visper/spm/unigram/unigram_units.txt": {
+    "sha256": "35050564486977b977ea2947113eb3f0e21bee9fd0d10482d0c878c92f1c7103",
+    "size_bytes": 286302
+  },
+  "assets/visper/spm/unigram/unigram.model": {
+    "sha256": "79ca34c6566ee85df75963fd71582a85de0d5eec1a3be6b53712d7bd7bffcb24",
+    "size_bytes": 500408
+  },
+  "camera_collection.py": {
+    "sha256": "35ec84e57d0b957684df0d623795c9d774f5e9c85ac5af3ed6501244cd50375d",
+    "size_bytes": 2763
+  },
+  "camera_evaluation.py": {
+    "sha256": "1e522550bff0b3f8421a985284183ae7206705e2e9c40dbb1b0b413e5e2462e5",
+    "size_bytes": 4184
+  },
+  "camera_personalization.py": {
+    "sha256": "7cbf410744170b67bdfbf3cc457f48c049d209007bfd268ded8b4afa1700b916",
+    "size_bytes": 11354
+  },
+  "camera_preprocessor.py": {
+    "sha256": "83fe2fe030e1c610fc41b382c4543bcbf6c50d04104e341fb6be848b915857a8",
+    "size_bytes": 9102
+  },
+  "camera_preview.py": {
+    "sha256": "0680b752cd56b5b746efc34cf031519acd48f64abd083a41394a6e836a8277fb",
+    "size_bytes": 34512
+  },
+  "config.json": {
+    "sha256": "9684c4f030818ab2cb2b050b10f06e81741df80e16caa4762ce709b51f654efa",
+    "size_bytes": 765
+  },
+  "export_metadata.json": {
+    "sha256": "4d40d16ed16467aacd13e6164a16fe36f3ad5bf8c862c2c33c4856f08e4a788b",
+    "size_bytes": 603
+  },
+  "inference.py": {
+    "sha256": "969e9be6c519d4de332c28ae0ba3899d25ad33100629964f7ae603b61498dff0",
+    "size_bytes": 4173
+  },
+  "labels.json": {
+    "sha256": "170c39ef3b7040f284684d6cd1ef68e169d6db15d0f8c896d6fb6b0dc9794c7f",
+    "size_bytes": 4119
+  },
+  "landmark_normalization.npz": {
+    "sha256": "942fab39e1c074505b2f5d29e5c97d16696ac305d61d1a1f6b31b843111bce6a",
+    "size_bytes": 972
+  },
+  "model.py": {
+    "sha256": "bbc8840cebe64feacf39fc7c6c75d23e3500b19af9547c02b64e9ac081e9c5d5",
+    "size_bytes": 2123
+  },
+  "preprocessing_spec.json": {
+    "sha256": "a926edce102c0ee9e92c3af1e4ed4f44e143f806ce5889b1010382c9341bfc27",
+    "size_bytes": 1150
+  },
+  "README_AR.txt": {
+    "sha256": "e3ab9aee83a5bc94a0efb18510fcbd62698b1074a6262b6f5c1ba6ac6e9335d3",
+    "size_bytes": 5155
+  },
+  "README.md": {
+    "sha256": "06f4ce271bfc0db00e86459d8b929bd1f8a2e7d1c2420284df11b45ab1212638",
+    "size_bytes": 8362
+  },
+  "requirements-training.txt": {
+    "sha256": "10160eaba48c71b087472326809603bc6dd26add7f4333b0de95b52318031931",
+    "size_bytes": 21
+  },
+  "requirements.txt": {
+    "sha256": "f94d8686f237c0fd1624bcd3bb983de49988771f7354e81228c736b301a9530c",
+    "size_bytes": 113
+  },
+  "test_camera_preview.py": {
+    "sha256": "9a6b0fd097bb05a2e426c1d18753666b76fd7ba311b78a9a8cd35d68f6b4ffa4",
+    "size_bytes": 4283
+  },
+  "test_visper_inference.py": {
+    "sha256": "cc6c02f578e139bee63d80062c8306fb741f21b1e452a3c5a8c96fd43afe5681",
+    "size_bytes": 5113
+  },
+  "test_visper_training.py": {
+    "sha256": "4863ff0d7cd6b43d5fb9abbf802fac20481d9f6c29651498ad2aef1a82be6eb1",
+    "size_bytes": 10455
+  },
+  "train_visper.py": {
+    "sha256": "530a31612c4c834f34aa7ab2bc3696c0f83aac44b3d5ca30fc737f72cad8d8cb",
+    "size_bytes": 10480
+  },
+  "training_history.csv": {
+    "sha256": "e491492b6795f9135242daf74a2880a1c7fc854a4ceef872d44ded466f238b3e",
+    "size_bytes": 15018
+  },
+  "verify_model.py": {
+    "sha256": "9c6b6ed771802c6b2e887a6f8487bac3504dc79ea7e88c0772565a32549f2998",
+    "size_bytes": 866
+  },
+  "visper_adapter.py": {
+    "sha256": "60971cbcfda11ec6d5c1b046806edb07f3f22e9bd2772c80217d812c5d31fca7",
+    "size_bytes": 4614
+  },
+  "visper_inference.py": {
+    "sha256": "74846224cc0b62c64ff042cc572ab6383ed3268ee7214fb4702d399e81960294",
+    "size_bytes": 8927
+  },
+  "visper_training_data.py": {
+    "sha256": "d2c3b3e0e737f5d23293189962a8c22f10c05ed9fa568bdd6debb012671ea246",
+    "size_bytes": 6411
+  },
+  "visper_vsr_base.pth": {
+    "sha256": "d6b45e0a9988ae3e747496dd0f24c7b3f5e019358e743df8e66579a38e755608",
+    "size_bytes": 1153269123
+  },
+  "weights.pt": {
+    "sha256": "8b3f680975122598e9d7affa23ea0f9350153bd8919e53b595dce5966f937943",
+    "size_bytes": 1572970
+  }
+}

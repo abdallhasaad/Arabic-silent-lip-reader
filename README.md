@@ -1,4 +1,4 @@
-# Arabic lip reading on Windows
+# Arabic Silent Lip Reader for Windows
 
 The camera app uses the visual-only ViSpeR model for Arabic words and
 phrases. It captures, aligns and decodes mouth images in memory.
@@ -147,6 +147,9 @@ To try a passing adapter with the camera, use the optional adapter path.
     .\.venv\Scripts\python.exe -m unittest -v test_visper_training
 
 ## Geometry research model
+
+The original research model uses geometric lip landmarks and a BiGRU for
+Arabic visual speech recognition.
 
 If you have the original 100-word geometry checkpoint, place `weights.pt`
 in the project directory to use the `GeometryPredictor` Python API. Run
